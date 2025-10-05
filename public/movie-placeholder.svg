@@ -1,0 +1,17 @@
+<svg width="345" height="180" viewBox="0 0 345 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="345" height="180" fill="#1a1a1a"/>
+  <rect x="1" y="1" width="343" height="178" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+  <g transform="translate(172.5, 90)">
+    <!-- Film icon -->
+    <rect x="-25" y="-15" width="50" height="30" rx="3" fill="#666"/>
+    <circle cx="-15" cy="-7" r="3" fill="#333"/>
+    <circle cx="-5" cy="-7" r="3" fill="#333"/>
+    <circle cx="5" cy="-7" r="3" fill="#333"/>
+    <circle cx="15" cy="-7" r="3" fill="#333"/>
+    <circle cx="-15" cy="7" r="3" fill="#333"/>
+    <circle cx="-5" cy="7" r="3" fill="#333"/>
+    <circle cx="5" cy="7" r="3" fill="#333"/>
+    <circle cx="15" cy="7" r="3" fill="#333"/>
+  </g>
+  <text x="172.5" y="120" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="14">No Image Available</text>
+</svg>

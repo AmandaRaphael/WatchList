@@ -1,0 +1,37 @@
+{
+  "name": "watchlist",
+  "version": "1.0.0",
+  "description": "**personal movie tracker — built with Next.js and TypeScript.**",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaRaphael/WatchList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AmandaRaphael/WatchList/issues"
+  },
+  "homepage": "https://github.com/AmandaRaphael/WatchList#readme",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^7.3.4",
+    "@mui/system": "^7.3.3",
+    "@types/node": "^24.6.2",
+    "@types/react": "^19.2.0",
+    "next": "^15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recoil": "^0.7.7",
+    "typescript": "^5.9.3"
+  }
+}

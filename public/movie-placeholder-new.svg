@@ -1,0 +1,55 @@
+<svg width="345" height="180" viewBox="0 0 345 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="filmGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#555;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#777;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#555;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="345" height="180" fill="url(#bg)"/>
+  
+  <!-- Subtle border -->
+  <rect x="0.5" y="0.5" width="344" height="179" stroke="#333" stroke-width="1" fill="none"/>
+  
+  <!-- Film strip -->
+  <g transform="translate(172.5, 90)">
+    <!-- Main film body -->
+    <rect x="-40" y="-20" width="80" height="40" rx="4" fill="url(#filmGrad)" stroke="#444" stroke-width="1"/>
+    
+    <!-- Film holes (left side) -->
+    <circle cx="-30" cy="-12" r="2.5" fill="#2a2a2a"/>
+    <circle cx="-30" cy="-4" r="2.5" fill="#2a2a2a"/>
+    <circle cx="-30" cy="4" r="2.5" fill="#2a2a2a"/>
+    <circle cx="-30" cy="12" r="2.5" fill="#2a2a2a"/>
+    
+    <!-- Film holes (right side) -->
+    <circle cx="30" cy="-12" r="2.5" fill="#2a2a2a"/>
+    <circle cx="30" cy="-4" r="2.5" fill="#2a2a2a"/>
+    <circle cx="30" cy="4" r="2.5" fill="#2a2a2a"/>
+    <circle cx="30" cy="12" r="2.5" fill="#2a2a2a"/>
+    
+    <!-- Center frame -->
+    <rect x="-15" y="-12" width="30" height="24" rx="2" fill="#333" stroke="#555" stroke-width="1"/>
+    
+    <!-- Play icon in center -->
+    <polygon points="-5,-6 -5,6 8,0" fill="#666"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="172.5" y="130" text-anchor="middle" fill="#666" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500">
+    NO IMAGE AVAILABLE
+  </text>
+  
+  <!-- Decorative dots -->
+  <circle cx="50" cy="40" r="1" fill="#333" opacity="0.5"/>
+  <circle cx="295" cy="40" r="1" fill="#333" opacity="0.5"/>
+  <circle cx="50" cy="140" r="1" fill="#333" opacity="0.5"/>
+  <circle cx="295" cy="140" r="1" fill="#333" opacity="0.5"/>
+</svg>
